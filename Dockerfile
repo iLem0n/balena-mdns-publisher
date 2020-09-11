@@ -1,4 +1,4 @@
-FROM balena/open-balena-base:v9.4.3 as base
+FROM balenalib/armv7hf-debian as base
 
 RUN apt-get update && \
     apt-get install -yq --no-install-recommends \
